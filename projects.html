@@ -3,25 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rowan N.</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Rowan N</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="px-4 py-5 my-5 text-center">
-            <img id="profilePic" class="d-block mx-auto mb-4" src="./assests/Rowan Nelson.jpg">
-            <h1 class="display-5 fw-bold text-body-emphasis">Rowan Nelson</h1>
-            <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">Projects</p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                
-            </div>
-            </div>
+<!-- Nav bar -->      
+<nav id="navbarColor" class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Rowan Nelson</a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarsExample01">
+            <ul class="navbar-nav me-auto mb-2">
+                <li class="nav-item">                
+                    <a class="nav-link" href="workExperience.html">Work Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>   
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="hobbies.html">Hobbies</a>
+                </li>                            -->
+            </ul>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="index.js"></script>
+</nav> 
+<!-- Projects -->
+    <div class="container mt-5">    
+        <h2 class="border-bottom mb-4">Project Examples:</h2>
+        <h3>Projects that are done or in limbo</h3>
+        <p>I enjoy working with my hands, but since moving into my apartment and losing my garage, my projects have had to shrink in size.</p>
+        <div class="col-md-12">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row my-5 shadow-sm h-md-250 position-relative">
+                <div class="col-auto d-block">
+                    <a href="./assets/vs code example.png" target="_blank">
+                        <img src="./assets/vs code example.png" alt="CNC Wood router" height="250">
+                    </a>
+                </div>
+                <div class="col p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0">Full-Stack Web dev</h3>
+                    <p class="card-text mb-auto py-2">This site is my first full-stack project. I'm taking a 12 week course to learn how to build sites like this one. 
+                        I'm also taking a 100-day Python course to learn how to automate tasks and build tools. I've built this site using HTML, CSS, and JavaScript. 
+                        With Jqueary, github, and Bootstrap.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-0 border rounded overflow-hidden flex-md-row my-5 shadow-sm h-md-250 position-relative">
+                <div class="col-auto d-block">
+                    <a href="./assets/CNC wood router.jpg" target="_blank">
+                        <img src="./assets/CNC wood router.jpg" alt="CNC Wood router" height="250">
+                    </a>
+                </div>
+                <div class="col p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0">CNC Wood Router</h3>
+                    <p class="card-text mb-auto py-2">Although I originally worked on this project with colleagues at work, I mostly use it for fun to create small wooden items. 
+                        Lately, I’ve been experimenting with making 3D topographical maps.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-0 border rounded overflow-hidden flex-md-row my-5 shadow-sm h-md-250 position-relative">
+                <div class="col-auto d-block">
+                    <a href="./assets/Wood mountain.jpg" target="_blank">
+                        <img src="./assets/Wood mountain.jpg" alt="Wood Mountain" height="250">
+                    </a>
+                </div>
+                <div class="col p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0">Wood Mountain</h3>
+                    <p class="card-text mb-auto py-2">Using the wood router shown above and my growing skills in Blender, I milled this small version of Mt. Brew.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-0 border rounded overflow-hidden flex-md-row my-5 shadow-sm h-md-250 position-relative">
+                <div class="col-auto d-block">
+                    <a href="./assets/CX500.jpg" target="_blank">
+                        <img src="./assets/CX500.jpg" alt="CX500" height="250">
+                    </a>
+                </div>
+                <div class="col p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0">CX500</h3>
+                    <p class="card-text mb-auto py-2">The first image shows what I have, and the next one is what I dream of transforming my CX500 into one day. 
+                        However, rebuilding a motorcycle in a small apartment is definitely a challenge!
+                    </p>
+                </div>
+                <div class="col-auto d-block">
+                    <a href="./assets/CX500 Dream.jpg" target="_blank">
+                        <img src="./assets/CX500 Dream.jpg" alt="CX500 Cafe racer" height="250">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+<!-- scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
